@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<meta charset="UTF-8">
+<head>
+  <style>
+    body {
+      background-color: #f5f2f2;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+    }
+    .forgot-password a {
+      margin-top: 30px; /* Adicionando margem superior */
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .title-container {
+      background-color: rgb(12, 1, 4);
+      padding: 30px;
+      border-radius: 0px;
+      text-align: center;
+      position: relative;
+      border: 1px solid #0c0104; /* Adicionando a borda roxa */
+    }
+
+    .title-container::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+
+      z-index: 1; /* Para a linha ficar sobre o conteúdo */
+    }
+    .icon-container {
+      position: absolute;
+      top: 10px;
+      right: -1px; /* Aumentando a distância da borda lateral */
+    }
+
+    .icon {
+      width: 175px;
+      height: 175px;
+    }
+
+
+    .login-container {
+      width: 300px;
+      margin-left: 540px;
+      margin-top: 20px; /* Adicionando margem superior */
+      margin-right: 30px;
+      background-color: #ffffff;
+      padding: 80px;
+      border-radius: 12px;
+      text-align: center;
+      border: 2px solid #0c0104;
+    }
+
+    .product-image {
+      width: 300px;
+      height: 300px;
+      background-color: #ffffff;
+      margin-bottom: 10px;
+      margin-top: 50px; /* Adicionando a margem superior */
+    }
+    .product-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    .arrow {
+      width: 30px;
+      height: 30px;
+      background-color: #ec7fe3;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .arrow:hover {
+      background-color: #ff0b0b;
+    }
+
+    h1 {
+      font-family: Didot, serif;
+      font-size: 60px;
+      margin-bottom: 20px;
+      color: #ec7171;
+      text-align: center;
+      text-shadow: 00 5px #eca4a4,
+      0 0 10px #fff,
+      0 0 20px #f69c9c,
+      0 0 30px #fcadb9,
+      0 0 40px #e71f1f,
+      0 0 55px #fd1717,
+      0 0 70px #ee0c0c;
+    }
+    h2 {
+      font-family: Didot, serif;
+      font-size: 58px;
+      margin-bottom: 30px;
+      color: #0c0104;
+      text-align: center;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #0a0505;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #0c0104;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .forgot-password {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .signup {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+<div class="title-container">
+  <h1>Bird Net</h1>
+  <span class="icon-container">
+        <img src="gaviaoo-removebg-preview%20(1).png" class="icon">
+    </span>
+</div>
+
+
+
+
+<div class="login-container">
+  <h2>Cadastro</h2>
+  <form>
+    <input type="text" placeholder="Nome" required>
+    <input type="text" placeholder="Email" required>
+    <input type="password" placeholder="Senha" required>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+</div>
+</div>
+</body>
+</html>
